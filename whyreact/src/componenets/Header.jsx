@@ -1,5 +1,5 @@
 import React from "react";
-import reactlogo from './assets/react-core-concepts.png'
+import reactlogo from '../assets/react-core-concepts.png'
 const reactDescription = ["Fundemental", "Crucial", "Core"];
 
 const getRandomInt = (max) => Math.floor(Math.random() * (max + 1));
