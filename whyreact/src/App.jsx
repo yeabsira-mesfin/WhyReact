@@ -1,11 +1,11 @@
-import Header from "./componenets/Header";
+import Header from "./componenets/Header/Header";
 import CoreConcept from "./componenets/CoreConcept";
 import { CORE_CONCEPTS } from "./data";
 function App() {
   return (
     <div>
       <Header/>
-     
+    
       <main>
         <section id="core-concepts">
           <h2>Core Concepts</h2>
