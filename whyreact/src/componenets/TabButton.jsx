@@ -1,9 +1,10 @@
 import React from 'react'
 
-const TabButton = ({children}) => {
+const TabButton = ({children, onSelect}) => {
+
   return (
     <li>
-        <button>
+        <button onClick={onSelect} > 
             {children}
         </button>
     </li>
