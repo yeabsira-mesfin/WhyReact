@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Header from "./componenets/Header/Header";
-import CoreConcept from "./componenets/CoreConcept";
+import CoreConcepts from "./componenets/CoreConcepts";
 import { CORE_CONCEPTS, EXAMPLES } from "./data";
 import TabButton from "./componenets/TabButton";
 function App() {
@@ -26,20 +26,7 @@ function App() {
       <Header />
 
       <main>
-        <section id="core-concepts">
-          <h2>Core Concepts</h2>
-          <ul>
-            {/* <CoreConcept
-              title={CORE_CONCEPTS[0].title}
-              description={CORE_CONCEPTS[0].description}
-              image={CORE_CONCEPTS[0].image}
-            />
-            <CoreConcept {...CORE_CONCEPTS[1]} />
-            <CoreConcept {...CORE_CONCEPTS[2]} />
-            <CoreConcept {...CORE_CONCEPTS[3]} /> */}
-            {CORE_CONCEPTS.map((items)=> <CoreConcept key={items.title} {...items} />)}
-          </ul>
-        </section>
+        <CoreConcepts/>
         <section id="examples">
           <h2>Examples</h2>
           <menu>
