@@ -22,7 +22,7 @@ function App() {
   }
 
   return (
-    <div>
+    <>
       <Header />
 
       <main>
@@ -53,7 +53,7 @@ function App() {
           {tabContent}
         </section>
       </main>
-    </div>
+    </>
   );
 }
 
