@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Tabs = ({children,buttons}) => {
+const Tabs = ({children,buttons,ButtonsContainer}) => {
   return (
    <>
-   <menu>
+   <ButtonsContainer>
     {buttons}
-   </menu>
+   </ButtonsContainer>
    {children}
    </>
   )
